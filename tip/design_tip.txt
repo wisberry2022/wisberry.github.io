@@ -1,0 +1,38 @@
+Background
+	- background에 color/pattern을 넣지 않는다(흰 색 or Image로 단순화)
+
+Font(실습 동안)
+	- 무조건 Noto-Sans로 고정
+		* font weight, size, 공간으로 디자인을 잡기위해
+	- font에 color는 black으로 고정(이외 다른 색깔 금지)
+
+font
+	- 한글은 자간을 붙여쓰는 것이 가독성에 좋다.(-25로 고정)
+	- 줄간격(line-height): (auto)로 지정하는데, 포토샵에서는 1.2정도이다.
+
+Guideline
+	- 
+
+Grid System
+	- 웹 페이지를 12개의 column으로 분리하여 text/img를 구성하는 기본적인 시스템
+		* 일반적으로 Grid System을 활용하여 레이아웃을 구성하는 수치 : 12 / 6+6 / 4+4+4 / 3+3+3+3
+
+- 화면은 Monitor Size와 동일하게 맞춘다( 1900px ) 
+	- 1200px 공간을 따로 설정한다.(수치는 변동가능성 있음)
+		* 해당 공간에 image가 삽입된다
+		* 각 img들은 1200px을 벗어나선 안된다.
+
+- 라인 맞추기 
+	- Grid System을 기반으로 라인을 무조건 맞춰야한다.
+
+
+- 강약 주기 
+
+
+- 공간 주기
+	- 공간은 생각보다 많이 줘야한다.
+
+
+
+
+

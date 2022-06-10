@@ -1,0 +1,19 @@
+html파일에서 js 불러오기
+	-> js 파일은 body 태그의 끝에 임포트한다.
+	-> head 태그 내부에서 js 소스를 임포트 할 대 defer를 작성해줘야 js가 정상적으로 작동한다
+		* ex) <script src = "../js/example.js" defer>
+		* head 태그 내부를 읽을 때는 아직 DOM이 만들어지지 않은 상태다
+	-> 내가 만든 .js 파일은 가장 아래에 위치시키고, 기본이 되는 라이브러리(jquery/react)를 가장 처음, 그리고 그 다음 라이브러리 링크를 작성한다.
+		* ex) <script src = "./jquery ~ "></script>
+		       <script src = "./slick.js"></script>
+		       <script src = "./main.js"></scrip>
+
+
+slick
+	-> slick 사용 시 슬라이드할 이미지를 감싸는 부모 요소에서 선택자를 사용할 때 주의하여야 한다.
+		-> :nth-child / 자식 선택자가 작동하지 않는다.
+
+js와 CSS
+	-> js로 적용한 CSS는 html 태그에서 인라인 스타일시트로 적용된다.
+		* 내부/외부 스타일시트보다 우선적으로 적용된다.
+	
