@@ -21,6 +21,8 @@ Guide Line
 Grid 켜기
 	- View -> New Guide Layout
 
+* Canvas Size 1900 설정 -> * Grid Layout 켜기
+
 Layer
 	- Layer 중복 선택 후 Ctrl + T -> transform(그룹 크기 조정 가능)
 	- Layer 중복 선택 후 Ctrl + G -> 그룹만들기
