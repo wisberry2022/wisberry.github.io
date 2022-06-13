@@ -22,7 +22,7 @@ CSS basic
 
 ======================================================================================================================================================
 
-PRACTICE_TIP	
+HTML PRACTICE TIP	
 
 HTML <a> Tag
 	- 다른 요소를 position: absolute를 설정하여 띄울 경우, <a> 태그가 아래로 깔려 선택이 되지 않는 에러가 있다. 
@@ -32,11 +32,16 @@ HTML <a> Tag
 	- 하이퍼링크에 줄 수 있는 값들
 		* / -> root 폴더로 이동(goLive 미설정 시 D드라이브까지, 웹페이지 설계 시 ~~.co.kr로 가게된다.)
 		* ../ -> 부모 폴더로 이동
+HTML <img> Tag
+	- <img> 태그는 고정된 사이즈를 가지기 때문에 반응형 홈페이지 제작 시 원본 사이즈가 유지되기 때문에, 유연한 Size를 원한다면 background를 사용하는 것이 낫다.
+
 HTML <table> Tag
 	- <tr> 태그에는 margin이 적용되지 않는다.
 		* 이를 해결하기 위해 <table> 태그의 css에 border-spacing을 설정해준다.
 
 ===============================================================================================================================
+
+CSS PRACTICE TIP	
 
 CSS animation
 	- @keyframes <animation_name> {} 와 같이 작성한다. 이후 애니메이션을 적용할 클래스/아이디/요소에 animation: <animation_name>과 같이 작성한다.
@@ -52,7 +57,6 @@ CSS border-spacing
 	- HTML 태그 중 <table> 태그의 셀(<tr>)의 테두리 간격을 지정할 수 있다.
 		* 해당 기능을 이용해 margin을 주는 것과 같은 효과를 낼 수 있다.
 		ex) border-spacing: <가로 length> <세로 length>
-
 
 CSS color
 	- CSS에서 color는 3자리, 6자리 코드 중 하나를 작성할 수 있다.
@@ -230,6 +234,7 @@ CSS 선택자
 	* 일반적으로 div만을 선택자로 지정하지는 않는다.(중복되는 경우가 많기 때문에)
 
 ==========================================================================================================================================================
+
 GITHUB로 웹 호스팅하기
 	- github repository -> settings -> pages -> branch main / root
 	- github repository -> Code -> Add file -> upload file -> url 접속 -> root 폴더에 있는 index.html이 표기된다.
