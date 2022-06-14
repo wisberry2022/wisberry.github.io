@@ -16,7 +16,7 @@ slick
 		* <figure> 태그를 사용하거나 class를 부여한다.(div 사용 지양)
 	-> slick 사용 시 <img> 태그가 display: block으로 지정되기 때문에 가운데 정렬이 힘들어진다.
 	-> slick 사용 시 slick을 지정하는 요소 아래에 슬라이드 컨텐츠 이외의 다른 것(아이콘 등)을 넣으면 함께 슬라이드된다.
-	-> slick 옵션
+	-> slick 옵션 몇 가지
 		- arrows: prev, next와 같은 버튼의 표기 유무(default: true -> false로 바꾸면 버튼이 사라진다)
 		- dots: 슬라이드의 순번, 넘어가게 하는 옵션(default: false -> true로 바꾸면 숫자가 생긴다.)
 		- pauseOnHover: 슬라이드에 마우스를 Hover할 시 넘어갈지 그렇지 않을지 설정하는 옵션(default:true -> false로 바꾸면 hover시에도 슬라이드가 넘어간다)
