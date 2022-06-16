@@ -10,7 +10,7 @@ html파일에서 js 불러오기
 
 
 fullpage
-	-> fullpage에서는 anchors를 활용하여 각 페이지를 해시(#p01, #p02)를 통해 연결할 수 있다.
+	-> fullpage에서는 anchors를 활용하여 각 페이지를 해시(#p01, #p02)를 통해 연결할 수 있다.(<a> 태그 활용)
 
 slick
 	-> slick.js와 slick.min.js는 다른 파일이다(다른 라이브러리와는 조금 다른 점)
