@@ -42,22 +42,40 @@ section {
   background: #f9f9f9 url('../../assets/image/0617/korea_map.png') no-repeat center 200%/contain;
 }
 
-
 .location li {
+  display: none;
   position: absolute;
+  z-index: 999;
   border-radius: 100%;
   border: 3px solid #f00;
   padding: 5px;
-  z-index: 999;
-}
-
-.location li:nth-child(1) {
-  inset: 53% auto auto 48%;
   color: #ff0;
   font-size: 25px;
+  animation: circle 1.5s infinite;
+}
+
+.location li.on:nth-child(1) {
+  inset: 53% auto auto 48%;
 }
 
 .location li:nth-child(2) {
-  inset: 80% auto auto 48%;
+  inset: 77% auto auto 61%;
+}
 
+.location li:nth-child(3) {
+  inset: 54% auto auto 43%;
+}
+
+.location li:nth-child(4) {
+  inset: 71% auto auto 58%;
+}
+
+.location li:nth-child(5) {
+  inset: 77% auto auto 46%;
+}
+
+@keyframes circle {
+  to {
+    transform: scale(1.5);
+  }
 }

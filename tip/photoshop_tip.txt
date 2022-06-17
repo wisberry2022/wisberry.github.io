@@ -7,7 +7,7 @@
 포토샵에 위치한 이미지 파일로 저장하기
 
 Background
-	- background로 넣은 이미지는 원본 파일을 그대로 사용해야 한다. Crop을 사용하여 별도로 지정하지 않는다.
+	- background로 넣은 이미지는 원본 파일을 그대v로 사용해야 한다. Crop을 사용하여 별도로 지정하지 않는다.
 
 Canvas
 	- Ctrl + +/- -> Canvas 확대/축소
