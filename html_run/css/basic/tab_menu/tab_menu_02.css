@@ -33,6 +33,7 @@
 
 .tab_content {
   position: relative;
+  height: 25vh;
 }
 
 .tab_content>li {
