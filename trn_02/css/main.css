@@ -1,0 +1,243 @@
+/* Wrap_Css_Code */
+.Wrap {}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* 220620 wang topBanner */
+.inner {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.topBanner {
+  padding: 30px 0;
+  background: #f1f1f1;
+}
+
+.topBanner .inner {
+  position: relative;
+}
+
+.topBanner h2 {
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.topBanner p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.topBanner a {
+  margin: 0 0 0 10px;
+  padding: 3px 15px 5px 15px;
+  background: #333;
+  color: #fff;
+}
+
+.topBanner i {
+  position: absolute;
+  inset: 0 0 auto auto;
+  border-radius: 3px;
+  padding: 5px;
+  background: #ddd;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+/* Header_Css_Code */
+#header {
+  border-bottom: 1px solid #ddd;
+  line-height: 100px;
+}
+
+#header .container {
+  justify-content: space-between;
+}
+
+#header nav>ul {
+  display: flex;
+}
+
+#header nav>ul>li>a {
+  padding: 0 15px;
+  font-size: 17px;
+}
+
+#header nav>ul>li~li::before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: #000;
+}
+
+#header a {
+  display: inline-block;
+}
+
+#searchForm input[type="text"] {
+  outline: none;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #333;
+  color: #f00;
+}
+
+#searchForm input[type="text"]:focus::placeholder {
+  opacity: 0;
+}
+
+#searchForm button {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 21px;
+}
+
+/* Main_Css_Code */
+.mainVisual {
+  position: relative;
+}
+
+.mainVisual .mainSlider figure {
+  position: relative;
+  height: 600px;
+}
+
+.mainVisual .mainSlider .item01 {
+  background: url('../assets/image/mainvisual01.jpg') no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .item02 {
+  background: url('../assets/image/mainvisual02.jpg') no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .item03 {
+  background: url('../assets/image/mainvisual03.jpg') no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .inner {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+}
+
+.mainVisual .mainSlider .item02 {
+  color: #333;
+  text-shadow: 0 0 3pc #fff;
+}
+
+.mainVisual .mainSlider .inner h2 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.mainVisual .mainSlider .inner p {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.mainVisual .mainSlider .inner a {
+  display: inline-block;
+  padding: 5px 20px;
+  background: #333;
+}
+
+.mainVisual .mainSlider figure h2 {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.mainVisual .mainSlider figure.on h2 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.mainVisual .mainSlider figure p {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.mainVisual .mainSlider figure.on p {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.5s 0.7s;
+}
+
+.mainVisual .mainSlider figure a {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.mainVisual .mainSlider figure.on a {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.7s 0.9s;
+}
+
+.mainVisual .mainSlider .slick-dots {
+  position: absolute;
+  inset: auto auto 100px 50%;
+  transform: translateX(-50%);
+}
+
+.mainVisual .mainSlider .slick-dots li {
+  display: inline-block;
+
+}
+
+.mainVisual .mainSlider .slick-dots button {
+  outline: none;
+  margin: 0 2px;
+  border-radius: 50%;
+  border: none;
+  width: 22px;
+  height: 22px;
+}
+
+.mainVisual .mainSlider .slick-dots .slick-active button {
+  background: #f00;
+}
+
+.slideNum {
+  position: absolute;
+  inset: 50px auto auto 50%;
+  transform: translateX(-100%);
+  margin: 0 0 0 600px;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  font-size: 25px;
+}
+
+.mainArrow i {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 100px;
+}
+
+.mainArrow i.on {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.mainArrow i:nth-child(1) {
+  margin: 0 0 0 -700px;
+}
+
+.mainArrow i:nth-child(2) {
+  margin: 0 0 0 700px;
+}
+
+/* Footer_Css_Code */
