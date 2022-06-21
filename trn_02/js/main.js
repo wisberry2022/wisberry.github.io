@@ -13,11 +13,6 @@ $(function () {
     if (c === 1) {
       $('.mainArrow i').addClass('on');
     }
-    // if (c) {
-    //   c += 1;
-    // } else {
-    //   c = 1
-    // };
     $('.slideNum').text((c ? (c + 1) : 1) + " / " + s.slideCount);
   });
 
