@@ -94,6 +94,7 @@ CSS display system
 			    <span>hello</span>
 			    <span>hello</span>
 			    <span>hello</span> -> gap이 생긴다.	
+		- inline-block의 경우 자식요소의 width들의 합이 부모요소의 width를 넘어갈 경우 inline처럼 한 줄에 정렬되지 않고 block처럼 세로로 쌓인다.
 	* CSS inline
 		- width, height, margin/padding의 top/bottom은 적용되지 않는다.
 		- margin / width의 경우 상하는 적용되지 않지만, padding의 경우 상하가 적용되지만 이는 실제 적용되는 것이 아니라 그렇게 보이는 것 뿐이다.
@@ -109,6 +110,9 @@ CSS filter
 
 CSS flex
 	- space-between 사용 시 가운데에 오는 요소는 부모 요소(flex-box) 크기를 기준으로 정 가운데에 오는 것은 아니다.
+
+CSS height
+	- height는 부모요소로부터 상속을 받지 못한다(자식 요소의 height에 100%를 주더라도 부모의 height를 상속받지 못한다.)
 
 CSS id
 	- Tag 선택자/Class 선택자보다 우선적으로 적용된다.(Tag 선택자/Class 선택자보다 계급이 높다)
