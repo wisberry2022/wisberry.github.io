@@ -331,3 +331,108 @@ section {
 }
 
 /* lotting_out_section_css_code */
+#main .lotting_out {
+  background-color: #f9f9f9;
+}
+
+.lotting_out .container {
+  gap: 10px;
+  /* border: 1px solid #000; */
+  width: 1200px;
+}
+
+.lotting_out .container .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #000; */
+  letter-spacing: -0.025em;
+}
+
+.lotting_out .container .header {
+  margin-bottom: 21px;
+}
+
+.lotting_out h2 {
+  position: relative;
+  /* border: 1px solid #000; */
+}
+
+.lotting_out .lotte_castle_bg {
+  margin-bottom: 30px;
+  /* border: 1px solid #000; */
+  height: 160px;
+  background: url('../assets/image/lotte_castle_logo_nookie.jpg') no-repeat center center/contain;
+}
+
+.lotting_out .left p {
+  /* border: 1px solid #000; */
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.025em;
+}
+
+.lotting_out .contents {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0 auto 10px auto;
+  /* border: 1px solid #000; */
+}
+
+.lotting_out .contents>* {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.lotting_out .contents .lotting_info {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.lotting_info .lotting_btn,
+.lotting_place {
+  display: block;
+  /* border: 1px solid #000; */
+}
+
+.lotting_info .lotting_btn {
+  display: block;
+  border: 1px solid #000;
+  padding: 4px 19px;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.lotting_info .lotting_place {
+  width: 240px;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.lotting_info .link {
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 21px;
+}
+
+.lotting_out .go_lotting_page_btn {
+  margin: 0 auto;
+  border-radius: 32px;
+  border: 1px solid #8c7249;
+  padding: 24px 77px;
+}
+
+.lotting_out .container .right {
+  flex: 1;
+}
+
+.lotting_out .lotte_castle {
+  /* border: 1px solid #000; */
+  /* height: 100%; */
+  height: 471px;
+  background: url('../assets/image/lotting_out.jpg') no-repeat center center/cover;
+}
