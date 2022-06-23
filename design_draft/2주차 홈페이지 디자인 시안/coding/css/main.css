@@ -29,7 +29,6 @@ section {
 #header .slick-dots {
   position: absolute;
   inset: auto auto 100px 50%;
-  /* inset: auto auto 100px 350px; */
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
@@ -43,6 +42,7 @@ section {
 #header .slick-dots>li::before {
   position: absolute;
   inset: auto auto 25px auto;
+  transform: translateX(4%);
   width: 100%;
   height: 21px;
   color: #fff;
@@ -68,6 +68,7 @@ section {
   border-radius: 2.5px;
   border: none;
   width: 20%;
+  transform: translateX(4%);
   height: 5px;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 0;
@@ -156,7 +157,8 @@ section {
   position: absolute;
   height: 170px;
   inset: 50% auto 50% 330px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
+  transform: translate(-0.6%, -50%);
   gap: 17px;
   flex-direction: column;
   width: 1200px;
@@ -439,7 +441,6 @@ section {
 
 /* recruit_section_css_code */
 #main .recruit {
-  padding: 100px 0;
   background: url('../assets/image/recruit_bg.jpg') no-repeat center center/cover;
 }
 
@@ -523,7 +524,7 @@ section {
 .recruit .r_left .btn_l {
   padding: 15px 40px;
   background: #f00;
-  color: #000;
+  color: #fff;
 }
 
 .recruit .r_left .btn_r {
@@ -794,7 +795,6 @@ section {
 
 /* environ_section_css_code */
 #main .environ {
-  padding: 100px 0;
   background-color: #fff;
   letter-spacing: -0.025em;
 }
@@ -918,7 +918,6 @@ section {
 
 /* news_section_css_code */
 #main .news {
-  padding: 100px 0;
   background: #f9f9f9;
   letter-spacing: -0.025em;
 }
