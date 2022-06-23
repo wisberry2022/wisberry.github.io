@@ -114,6 +114,8 @@ CSS filter
 
 CSS flex
 	- space-between 사용 시 가운데에 오는 요소는 부모 요소(flex-box) 크기를 기준으로 정 가운데에 오는 것은 아니다.
+	- flex container에 flex를 설정할 경우, flex-item이 하나일 경우, 남은 공간을 모두 차지해버린다(width,height 모두)
+		-> width값을 의도적으로 주어 고정시킬 수 있다.
 
 CSS height
 	- height는 부모요소로부터 상속을 받지 못한다(자식 요소의 height에 100%를 주더라도 부모의 height를 상속받지 못한다.)
