@@ -104,5 +104,13 @@ $(function () {
     } else {
       $('.toTop').fadeOut(600);
     }
+  });
+
+  $('#fl').on('change', function () {
+    console.log($(this), $(this).val());
+    var link = $(this).val();
+    if (link) {
+      window.open(link);
+    }
   })
 });

@@ -738,7 +738,59 @@
 }
 
 /* Footer_Css_Code */
+#footer {
+  background: #333;
+  color: #fff;
+  line-height: 80px;
+  font-size: 15px;
+}
 
+#footer dt,
+#footer dd {
+  display: inline-block;
+}
+
+#footer .top {
+  border-bottom: 1px solid #666;
+}
+
+#footer dt::before,
+#footer dd~dd::before {
+  content: '';
+  display: inline-block;
+  margin: 0 15px;
+  width: 1px;
+  height: 12px;
+  background: #ddd;
+}
+
+#footer .top i {
+  font-size: 29px;
+}
+
+#footer .container {
+  justify-content: space-between;
+}
+
+#footer .bottom address {
+  font-style: normal;
+}
+
+#footer .bottom select {
+  border: 1px solid #666;
+  padding: 0 15px;
+  background: transparent;
+  color: #ddd;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#footer .bottom option {
+  color: #fff;
+  background: #333;
+}
+
+/* under Footer Css Code */
 .toTop {
   display: none;
   position: fixed;
