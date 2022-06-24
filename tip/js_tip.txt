@@ -35,7 +35,10 @@ slick
 	-> init 이벤트를 사용할 때는 스크립트 가장 위에 작성해주어야한다. -> 슬라이드가 최초로 시작될 때 해당 이벤트가 실행된다.
 	-> slick dots들을 가로정렬하고 싶을 때는 inline-block을 써주어야 한다 flex는 적용이 안된다
 		-> slick.js에서 li 요소들에게 block을 붙여버리기 때문에 flex 적용이 안되어버린다.
-
+	-> slick slide의 크기/위치는 CSS에서 조정할 수 있다.
+		1. 전체 slide 크기 조정 -> slick-slide 조정 ex) .slick-slide { height: 150px; }
+			* transform으로 위치조정 가능
+		2. center slide만 크기 조정 -> slick-center 조정 ex) .slick-center { height: 350px; }
 js와 CSS
 	-> js로 적용한 CSS는 html 태그에서 인라인 스타일시트로 적용된다.
 		* 내부/외부 스타일시트보다 우선적으로 적용된다.

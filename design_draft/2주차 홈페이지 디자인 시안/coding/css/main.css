@@ -233,6 +233,7 @@ section {
   margin-bottom: 20px;
   font-size: 23px;
   font-weight: 700;
+  letter-spacing: 0;
 }
 
 .business .b_title_box p {
@@ -947,7 +948,7 @@ section {
 
 .news .news_card .news_bg {
   margin-bottom: 20px;
-  height: 349px;
+  height: 276px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -985,6 +986,7 @@ section {
 }
 
 .news .tiny_title .date {
+  margin-left: -4px;
   font-size: 13px;
   font-weight: 100;
   text-align: left;
