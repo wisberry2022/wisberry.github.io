@@ -196,7 +196,7 @@ CSS position
 	- top/bottom/left/right에 값을 설정했을 경우, 차후에 다른 위치에 값을 주고자 할 때는 이전에 설정했던 값에 auto를 반드시 설정해주어야 한다.(transition 설정 시 유용)
 		* .box가 적용된 요소에 마우스를 갖다대었을 때 top/left에서 50% 떨어진 도형을,  오른쪽 구석으로 이동시키고 싶을 때
 			-> .box .b_1 { position:absolute; top: 50%; left: 50%; } -> .box:hover .b_1 { bottom: 0; right: 0; } (X) / .box:hover .b_1 { top: auto; left: auto; bottom: 0; right: 0; } (O)
-
+	- position을 설정했다하더라도 이후에 등장한 html tag에 position이 설정되어있을 경우 앞전에 position 설정이 되어있었던 요소를 뒤덮어버린다.
 CSS Reset Code
 	 - 기존 HTML 태그에 설정된 Style값을 개발자가 컨트롤 할 수 있도록 특정 태그들을 골라 초기값을 지정하는 것
 
