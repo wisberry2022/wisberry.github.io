@@ -104,15 +104,8 @@
 }
 
 .sticky .right {
-  flex: 1;
   position: sticky;
   inset: 0 0 auto auto;
-  height: 100vh;
-}
-
-.section02 .right_2 {
-  position: sticky;
-  top: 0;
 }
 
 /* future css code */

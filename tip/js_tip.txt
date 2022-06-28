@@ -36,8 +36,10 @@ slick
 	-> slick dots들을 가로정렬하고 싶을 때는 inline-block을 써주어야 한다 flex는 적용이 안된다
 		-> slick.js에서 li 요소들에게 block을 붙여버리기 때문에 flex 적용이 안되어버린다.
 	-> slick slide의 크기/위치는 CSS에서 조정할 수 있다.
-		1. 전체 slide 크기 조정 -> slick-slide 조정 ex) .slick-slide { height: 150px; }
+		1. 전체 slide 크기 조정 -> slick-slide 조정 ex) .slick-slide { height: 150px; } 
 			* transform으로 위치조정 가능
+			* backgrond가 아닌, img로 설정했다면 img의 size를 조절해야한다
+				ex) .slick-slide img { height: 150px; }
 		2. center slide만 크기 조정 -> slick-center 조정 ex) .slick-center { height: 350px; }
 	-> slide되는 요소들 사이의 공간을 조절해주고 싶다면 css에서 padding을 조절해주면 된다.
 		* centerMode 사용 시 centerPadding 사용 가능
