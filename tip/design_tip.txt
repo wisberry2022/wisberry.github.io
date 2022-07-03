@@ -13,7 +13,7 @@ font
 	- 줄간격(line-height): (auto)로 지정하는데, 포토샵에서는 1.2정도이다.
 
 Guideline
-	- 
+	- Guideline 사이의 간격은 30px로 고정
 
 Grid System
 	- 웹 페이지를 12개의 column으로 분리하여 text/img를 구성하는 기본적인 시스템
