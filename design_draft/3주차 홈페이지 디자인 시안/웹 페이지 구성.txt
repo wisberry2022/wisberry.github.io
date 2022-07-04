@@ -8,17 +8,17 @@ header - (Brand 소개 - 사업분야 - Product 소개 - Brand News) - footer
 
 Product 소개 
  Product
- 미각제빵소
+ 미각제빵소 - 4개
 	https://spcsamlip.co.kr/brand/meegak/
- 삼립호빵
+ 삼립호빵 - 4개
 	https://spcsamlip.co.kr/brand/samlip-hopang/
- 아시나요(아이스크림)
+ 아시나요(아이스크림) - 2개
 	https://spcsamlip.co.kr/brand/castella-cream-cake/
- 삼립호떡
+ 삼립호떡 - 4개
 	https://spcsamlip.co.kr/brand/honey-pancake/
- 삼립잇츠(간편식)
+ 삼립잇츠(간편식) - 4개
 	https://spcsamlip.co.kr/brand/samlip-eats/
- Chobani(요거트)
+ Chobani(요거트) - 4개
 	https://spcsamlip.co.kr/brand/chobani/
 
 
