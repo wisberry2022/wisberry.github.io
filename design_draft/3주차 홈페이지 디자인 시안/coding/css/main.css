@@ -2,6 +2,12 @@
   outline: 1px solid #000;
 } */
 
+.btn {
+  padding: 5px 17px;
+  border: none;
+  border-bottom: 1px solid #a9a9a9;
+}
+
 .container {
   margin: 0 auto;
   width: 1200px;
@@ -471,9 +477,51 @@ main .product {
 
 .product strong {
   display: block;
+  margin-bottom: 40px;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: -0.025em;
+  text-align: center;
+}
+
+.product .lnb {
+  margin-bottom: 20px;
+}
+
+.product .lnb .pd_menu {
+  /* outline: 1px solid #000; */
+  display: flex;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  width: 485px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.product .pd_menu li {
+  flex: 1;
+  /* outline: 1px solid #000; */
+}
+
+.product .pd_menu li span {
+  /* outline: 1px solid #000; */
+  display: block;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: -0.025em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.product .pd_menu .menu_click span {
+  background-color: #36b4e5;
+  color: #fff;
+}
+
+.product .pd_menu li span:nth-child(-n+5) {
+  border-right: 1px solid #fff;
 }
 
 main .product .pd_list {
@@ -481,7 +529,141 @@ main .product .pd_list {
 }
 
 main .product .pd_list.pd_show {
-  display: block;
+  /* outline: 1px solid #000; */
+  display: flex;
+  gap: 30px;
 }
 
+main .product .pd_list:nth-of-type(3) {
+  justify-content: center;
+}
 
+/* .product .pd_list .pd_card {
+  outline: 1px solid #000;
+} */
+
+.product .pd_card .pd_image {
+  /* outline: 1px solid #000; */
+  /* margin-bottom: 20px; */
+  width: 278px;
+  height: 261px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.product .pd_card .bread_01 {
+  background-image: url('../assets/image/products/pang/migak_01.jpg');
+}
+
+.product .pd_card .bread_02 {
+  background-image: url('../assets/image/products/pang/migak_02.jpg');
+}
+
+.product .pd_card .bread_03 {
+  background-image: url('../assets/image/products/pang/migak_03.jpg');
+}
+
+.product .pd_card .bread_04 {
+  background-image: url('../assets/image/products/pang/migak_04.jpg');
+}
+
+.product .pd_card .hopang_01 {
+  background-image: url('../assets/image/products/hopang/hopang_01.jpg');
+}
+
+.product .pd_card .hopang_02 {
+  background-image: url('../assets/image/products/hopang/hopang_02.jpg');
+}
+
+.product .pd_card .hopang_03 {
+  background-image: url('../assets/image/products/hopang/hopang_03.jpg');
+}
+
+.product .pd_card .hopang_04 {
+  background-image: url('../assets/image/products/hopang/hopang_04.jpg');
+}
+
+.product .pd_card .ice_01 {
+  background-image: url('../assets/image/products/ice_cream/asinayo_01.jpg');
+}
+
+.product .pd_card .ice_02 {
+  background-image: url('../assets/image/products/ice_cream/asinayo_02.jpg');
+}
+
+.product .pd_card .hotuck_01 {
+  background-image: url('../assets/image/products/hotuck/hotuck_01.png');
+}
+
+.product .pd_card .hotuck_02 {
+  background-image: url('../assets/image/products/hotuck/hotuck_02.png');
+}
+
+.product .pd_card .hotuck_03 {
+  background-image: url('../assets/image/products/hotuck/hotuck_03.png');
+}
+
+.product .pd_card .hotuck_04 {
+  background-image: url('../assets/image/products/hotuck/hotuck_04.png');
+}
+
+.product .pd_card .eats_01 {
+  background-image: url('../assets/image/products/eats/eats_01.png');
+}
+
+.product .pd_card .eats_02 {
+  background-image: url('../assets/image/products/eats/eats_02.png');
+}
+
+.product .pd_card .eats_03 {
+  background-image: url('../assets/image/products/eats/eats_03.jpg');
+}
+
+.product .pd_card .eats_04 {
+  background-image: url('../assets/image/products/eats/eats_04.jpg');
+}
+
+.product .pd_card .yogurt_01 {
+  background-image: url('../assets/image/products/yogurt/chobani_01.jpg');
+}
+
+.product .pd_card .yogurt_02 {
+  background-image: url('../assets/image/products/yogurt/chobani_02.jpg');
+}
+
+.product .pd_card .yogurt_03 {
+  background-image: url('../assets/image/products/yogurt/chobani_03.jpg');
+}
+
+.product .pd_card .yogurt_04 {
+  background-image: url('../assets/image/products/yogurt/chobani_04.jpg');
+}
+
+.product .pd_card .pd_desc {
+  text-align: center;
+}
+
+.product .pd_desc h4 {
+  margin-bottom: 17px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.product .pd_desc p {
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.product .pd_desc .btn i {
+  font-size: 9px;
+  line-height: 23px;
+}
+
+.product .pd_desc .btn {
+  font-size: 11px;
+  font-weight: 100;
+  line-height: 23px;
+}

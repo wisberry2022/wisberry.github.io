@@ -34,4 +34,9 @@ $(function () {
     $('.business_intro .business_desc li').eq(idx).addClass('desc_show').siblings().removeClass('desc_show');
   });
 
+  $('.product .pd_menu li').on('click', function() {
+    var idx = $(this).index();
+    $(this).addClass('menu_click').siblings().removeClass('menu_click');
+    $('.product .pd_list').eq(idx).addClass('pd_show').siblings().removeClass('pd_show');
+  });
 })
