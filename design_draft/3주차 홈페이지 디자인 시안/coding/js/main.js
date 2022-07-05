@@ -1,5 +1,5 @@
-$(function() {
-  $('#header .lang_switch span').on('click', function() {
+$(function () {
+  $('#header .lang_switch span').on('click', function () {
     $(this).addClass('lang_toggle');
     $(this).siblings().removeClass('lang_toggle');
   });
