@@ -14,6 +14,7 @@ $(function () {
 
   $('main .main_visual .container .main_slider').slick({
     arrows: false,
+    autoplay: true,
     centerMode: true,
     centerPadding: '170px',
     dots: true,
@@ -38,5 +39,12 @@ $(function () {
     var idx = $(this).index();
     $(this).addClass('menu_click').siblings().removeClass('menu_click');
     $('.product .pd_list').eq(idx).addClass('pd_show').siblings().removeClass('pd_show');
+  });
+
+  $('#family_site').on('change', function () {
+    var link = $(this).val();
+    if (link) {
+      window.open(link);
+    }
   });
 })

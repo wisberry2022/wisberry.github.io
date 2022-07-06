@@ -120,10 +120,13 @@ CSS flex
 	- flex container에 flex를 설정할 경우, flex-item이 하나일 경우, 남은 공간을 모두 차지해버린다(width,height 모두)
 		-> width값을 의도적으로 주어 고정시킬 수 있다.
 	- flex는 기본적으로 stretch가 되어버리는데, 이 때 div로 감싸버리면 요소가 stretch되어버리지 않는다.
-
+	- float:left나 float:right를 사용할 경우, display 속성은 무시된다.
 CSS float
 	- 각 요소에 float을 줄 경우, 요소를 감싸고 있는 부모 요소의 크기가 사라지기 때문에 width나 height를 별도로 지정해주어야 한다.
-	- float 처리 된 요소 사이에 간격을 주고 싶을 경우 float 처리된 요소에 padding을 준다.
+	- float을 사용할 경우 가상 요소를 사용하여 임의의 박스를 만들어주어 부모 요소에 크기를 다시 지정해줘야 한다.
+		ex) .container::after { content: ''; display: block; clear: both; }
+	- 새로운 요소가 추가될 경우, 요소의 크기를 임의로 설정해줘야한다.
+	- 가운데 정렬을 하고 싶을 경우 float이 아닌, 각 요소들을 inline-block으로 처리하고 요소를 감싸는 부모 요소에 text-align: center를 부여한다.
 
 CSS height
 	- height는 부모요소로부터 상속을 받지 못한다(자식 요소의 height에 100%를 주더라도 부모의 height를 상속받지 못한다.)
@@ -212,6 +215,10 @@ CSS Reset Code
 CSS Responsive 
 	- 폰트 크기를 설정하면 디바이스에 따라 화면에 들어오지 않는 경우가 있다.
 		-> vw를 사용할 경우 디바이스의 전체 width에 비례한 폰트 사이즈가 설정되어 문제를 해결할 수 있다.
+
+CSS text-overflow
+	- white-space:nowrap;과 함께 사용하여, text-overflow: ellipse를 사용하면 넘치는 텍스트는 ... 처리가 된다. 하지만 텍스트를 감싸는 요소에 width를 설정하고 overflow:hidden을 설정해주어야 한다.
+		ex) span { width: 350px; overflow: hidden; white-space: nowrap; text-overflow: ellipse }
 
 CSS transition
 	- transition은 바뀌기 이전 요소에 설정을 해야 한다. 만약 이벤트 발생 후에 transition을 삽입하면 이벤트 종료 시 transition이 작동되지 않는다.
