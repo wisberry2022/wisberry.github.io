@@ -667,3 +667,77 @@ main .product .pd_list:nth-of-type(3) {
   font-weight: 100;
   line-height: 23px;
 }
+
+/* section brand_news css code */
+main .brand_news {
+  padding: 100px 0;
+  background-color: #f9f9f9;
+  color: #333;
+  letter-spacing: -0.025em;
+  text-align: center;
+}
+
+.brand_news .container .section_title_box {
+  margin-bottom: 30px;
+}
+
+.brand_news .section_title_box h3 {
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: capitalize;
+}
+
+.brand_news .section_title_box strong {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+.brand_news .news_box {
+  outline: 1px solid #000;
+  display: flex;
+  gap: 30px;
+}
+
+.brand_news .news_box .card_news {
+  outline: 1px solid #000;
+}
+
+.brand_news .news_box .card_news .news_bg {
+  width: 380px;
+  height: 195px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.brand_news .news_box .card_news .news_desc {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.brand_news .news_box .card_news .news_desc h4 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.brand_news .news_box .news_desc strong {
+ font-size: 13px;
+ font-weight: 300;
+ text-align: left; 
+}
+
+.brand_news .news_desc .btn {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.brand_news .news_desc .btn i {
+  font-size: 9px;
+}
