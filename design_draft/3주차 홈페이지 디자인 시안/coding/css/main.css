@@ -1,6 +1,4 @@
-/* * {
-  outline: 1px solid #000;
-} */
+/* * { outline: 1px solid #000; } */
 
 .btn {
   padding: 5px 17px;
@@ -266,7 +264,7 @@ main .slide_info .arrow_set div i {
   transform: translate(-50%, -50%);
 }
 
-main .arrow_set .left  {
+main .arrow_set .left {
   margin-right: 130px;
 }
 
@@ -406,14 +404,13 @@ main .business_intro {
   height: 320px;
 }
 
-.business_intro .business_desc .right{
+.business_intro .business_desc .right {
   display: none;
 }
 
 .business_intro .business_desc .desc_show .right {
   display: block;
-  /* flex-direction: column;
-  justify-content: center; */
+  /* flex-direction: column; justify-content: center; */
 }
 
 .business_intro .business_desc .right {
@@ -423,9 +420,7 @@ main .business_intro {
   text-align: center;
 }
 
-/* .business_intro .business_desc .right .desc {
-  outline: 1px solid #000;
-} */
+/* .business_intro .business_desc .right .desc { outline: 1px solid #000; } */
 
 .business_intro .business_desc .right h4 {
   /* outline: 1px solid #000; */
@@ -737,9 +732,7 @@ main .brand_news {
   background-color: #fff;
 }
 
-/* .brand_news .news_box .card_news .news_desc>* {
-  outline: 1px solid #000;
-} */
+/* .brand_news .news_box .card_news .news_desc>* { outline: 1px solid #000; } */
 
 .brand_news .news_box .card_news .news_desc h4 {
   margin-bottom: 10px;
@@ -753,10 +746,10 @@ main .brand_news {
 }
 
 .brand_news .news_box .news_desc strong {
- margin-bottom: 22px;
- font-size: 13px;
- font-weight: 300;
- text-align: left; 
+  margin-bottom: 22px;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
 }
 
 .brand_news .news_desc .btn {
@@ -844,7 +837,7 @@ main .brand_news {
 }
 
 #footer .right #sitemap i {
-  margin-left: 60px; 
+  margin-left: 60px;
 }
 
 #footer .right #family_site i {

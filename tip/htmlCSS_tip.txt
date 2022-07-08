@@ -217,6 +217,9 @@ CSS Reset Code
 CSS Responsive 
 	- 폰트 크기를 설정하면 디바이스에 따라 화면에 들어오지 않는 경우가 있다.
 		-> vw를 사용할 경우 디바이스의 전체 width에 비례한 폰트 사이즈가 설정되어 문제를 해결할 수 있다.
+	- pc화면을 위해 설정해두었던 width값은 반응형 때에는 auto로 바꿔야한다.
+	- 반응형 화면 때에 JS로 적용했던 스타일들이 그대로 적용되어 pc화면으로 돌아갔을 때 제대로 작동이 되지 않을 때가 있다. 이 때는, js/jquery를 통해 반응형 때 인라인으로 붙였던 style을 제거해주어야 한다.
+		-> $('.your_class').removeAttr('style');
 
 CSS text-overflow
 	- white-space:nowrap;과 함께 사용하여, text-overflow: ellipse를 사용하면 넘치는 텍스트는 ... 처리가 된다. 하지만 텍스트를 감싸는 요소에 width를 설정하고 overflow:hidden을 설정해주어야 한다.
