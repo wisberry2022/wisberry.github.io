@@ -41,14 +41,16 @@
   </section>
 
   <section class="movie02">
-    <h2>BUSTED</h2>
-    <p>
-      Meet You There(Abbey Road Session)
-    </p>
-    <div class="controls">
-      <i class="xi-pause"></i>
-      <i class="xi-play"></i>
-      <i class="xi-bars"></i>
+    <!-- <div class="inner">
+      <h2>BUSTED</h2>
+      <p>
+        Meet You There(Abbey Road Session)
+      </p>
+      <div class="controls">
+        <i class="xi-pause"></i>
+        <i class="xi-play"></i>
+        <i class="xi-bars"></i>
+      </div> -->
     </div>
     <div id="bgndVideo" class="player"></div>
   </section>
@@ -64,13 +66,15 @@
       $('.movie01 .controls i:nth-child(2)').on('click', function () {
         $('.vd01').trigger('play');
       })
-
+      
       $("#bgndVideo").YTPlayer({
-        videoURL: 'https://youtu.be/WGyhjnKiYW8?list=RDkG2CVhbt5W4',
+        videoURL: 'https://youtu.be/LjRWdVdO50Y',
         containment: '.movie02',
         autoPlay: true,
         showControls: false,
         playOnlyIfVisible: true,
+        quality: 'highres',
+        ratio: '4/3',
       });
 
       $('.movie02 .controls i:nth-child(1)').on('click', function () {

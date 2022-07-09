@@ -10,7 +10,7 @@ body {
 }
 
 .movie01 {
-  padding: 100px 0;
+  padding: 100px 0;shiseido brand
 }
 
 .movie01 .container {
@@ -55,11 +55,17 @@ section .right {
 }
 
 .movie02 {
-  padding: 150px 0;
+  /* padding: 150px 0; */
+  width: 100%;
+  height: 100vh;
   text-align: center;
   color: #fff;
 }
 
 .movie02 i {
   font-size: 30px;
+}
+
+.movie02 .inner {
+  display: flex;
 }
