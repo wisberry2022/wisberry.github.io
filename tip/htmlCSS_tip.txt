@@ -186,9 +186,8 @@ CSS position
 			* 포지셔닝의 기준은 relative로 설정된 부모 요소(or 부모의 부모/부모의 부모의 부모...)이다.
 				-> absolute로 설정된 부모 요소도 기준점으로 작용한다.
 			* absolute 상태가 된 경우, % 단위의 기준은 relative로 설정된 기준 요소의 width/height를 따른다.
-			* absolute 상태가 된 경우, margin이 적용되지 않는다.
-				-> vertical-align / line-height와 같은 속성으로 수직 정렬을 하는 것도 불가능하다.
-				-> margin: 0 auto를 주는 것이 불가능하다.
+			* vertical-align / line-height와 같은 속성으로 수직 정렬을 하는 것이 불가능하다.
+			* margin: 0 auto를 주는 것이 불가능하다.
 			* 양방향(left/right or top/bottom)에 값을 줄 경우 컨텐츠의 길이가 확장된다.
 			* absolute로 floating된 요소들에 rgba값이 설정되어있을 경우, alpha값이 합산된다.
 			* absolute 처리된 요소들은 block 속성을 가지게 된다.
