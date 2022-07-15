@@ -200,6 +200,9 @@ CSS position
 			* sticky 사용을 위해서는 top/bottom/left/right 중 하나의 값을 반드시 설정해주어야 한다.
 			* 기준점은 sticky를 지정한 요소의 부모요소이다. (이 때 부모요소에 반드시 position이 설정되있어야 하는 것은 아니다.)
 			* sticky는 부모 요소의 내부에서만 fixed처럼 작동한다. 초기 위치는 sticky를 지정했을 때 설정해주었던 위치값(top/bottom/left/right)에서 고정이다.
+			* sticky 설정 시, 다음 섹션의 position은 relative로 설정해주어야 한다 
+			  position을 설정해주지 않으면 default값인 static으로 설정되는데, 이 때 static의 z-index값이 sticky보다 낮기 때문에 
+			  미설정시 sticky를 지정한 다음 섹션이 보이지 않는 문제가 생긴다
 	- z-index: 요소의 겹침 순서를 결정
 	- 요소를 가운데로 오게 하는 공식
 		* element {position: aboslute; top: 50%; left: 50%; transform: translate(-50%, -50%);} 
